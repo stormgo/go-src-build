@@ -15,3 +15,20 @@ this command...
 ```
 alias myall2='env GOROOT_BOOTSTRAP=/miago/go1.4.2 ./myall2.bash'
 ```
+
+```
+alias myall1='env GOROOT_BOOTSTRAP=/miago/go1.4.2 ./all.bash'
+alias myall2='env GOROOT_BOOTSTRAP=/miago/go1.4.2 ./myall2.bash'
+```
+
+After checking a fresh copy of golang out of github run out of the box.
+
+myall1
+
+And when you hit the tests ctrl-c out of it.
+
+Then run
+
+myall2
+
+To have the tests run....
