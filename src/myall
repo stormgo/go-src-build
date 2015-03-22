@@ -1,0 +1,7 @@
+#!/bin/bash -e
+#
+# ./myall --v --run=go_test:net/http
+#
+
+export GOROOT="$(cd .. && pwd)"
+bash run.bash "$@" --no-rebuild
