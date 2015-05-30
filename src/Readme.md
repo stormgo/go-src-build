@@ -1,4 +1,6 @@
 
+Prior to running the tests, and after rebuilding go 1.5 with go 1.4.2
+
 Remember to change your default go to 1.5 by changing your path.
 
 ```
