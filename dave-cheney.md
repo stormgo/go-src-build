@@ -123,7 +123,15 @@ You’ve probably figured out that make.bash is useful for building Go without r
 Update: Thanks to Russ Cox and Andrew Gerrand for their feedback and suggestions.
 
 Related Posts:
-How does the go build command work ?
-Using // +build to switch between debug and release builds
-What does go build build ?
-Using go test, build and install
+
+[How does the go build command work ?]
+(http://dave.cheney.net/2013/10/15/how-does-the-go-build-command-work)
+
+[Using // +build to switch between debug and release builds]
+(http://dave.cheney.net/2014/09/28/using-build-to-switch-between-debug-and-release)
+
+[What does go build build ?]
+(http://dave.cheney.net/2014/06/04/what-does-go-build-build)
+
+[Using go test, build and install]
+(http://dave.cheney.net/2014/01/21/using-go-test-build-and-install)
