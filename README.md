@@ -1,25 +1,32 @@
 
-copy **src/myall** to the go/src directory
+Please be sure and
+[read this]
+(./src/Readme.md)
+too before getting started.
 
-And run this command:
+copy **src/myall** to the go/src directory
+copy **src/myall.bash** to the go/src directory
+
+And run this command to build go without the tests
+
+```
+./myall.bash
+```
+
+And run this command to build a particular test
 
 ```
 ./myall --v --run=go_test:crypto
 ./myall --v --run=go_test:crypto/ecdsa -v
-
 ```
 
-After building the golang src tree from scratch then **Ctrl C**
-out of it when the tests start...
-
-To build the golang src tree from scratch
+By default to build the golang src tree from scratch without any
+of the scripts in this repo do this:
 
 ```
 cd src
 ./all.bash
 ```
-
-and when the tests start to run hit **Ctrl C**
 
 This assumes that
 
