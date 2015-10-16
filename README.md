@@ -9,10 +9,10 @@ And run this command:
 
 ```
 
-After building the golang src tree from scatch and ctrl c'ing
+After building the golang src tree from scatch then **Ctrl C**
 out of it when the tests start...
 
-To build the the golang src tree from scratch
+To build the golang src tree from scratch
 
 ```
 cd src
