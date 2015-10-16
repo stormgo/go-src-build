@@ -5,6 +5,8 @@ And run this command:
 
 ```
 ./myall --v --run=go_test:crypto
+./myall --v --run=go_test:crypto/ecdsa -v
+
 ```
 
 After building the golang src tree from scatch and ctrl c'ing
@@ -17,37 +19,11 @@ cd src
 ./all.bash
 ```
 
-This enables one to build the Golang package tests after running
+and when the tests start to run hit **Ctrl C**
+
+This assumes that
 
 ```
-alias myall1='env GOROOT_BOOTSTRAP=/miago/go1.4.2 ./all.bash'
+export GOROOT=/mia/golang/go
+export GOROOT_BOOTSTRAP=/mia/golang/go1.4.2
 ```
-
-The above command is the standard out of the box command to build
-the entire toolchain.  Once you hit the testing you can control-c
-out of it...
-
-From there you can now start to build the test files by running
-this command...
-
-```
-alias myall2='env GOROOT_BOOTSTRAP=/miago/go1.4.2 ./myall2.bash'
-```
-
-```
-alias myall1='env GOROOT_BOOTSTRAP=/miago/go1.4.2 ./all.bash'
-alias myall2='env GOROOT_BOOTSTRAP=/miago/go1.4.2 ./myall2.bash'
-```
-
-After checking a fresh copy of golang out of github run out of the box.
-
-myall1
-
-And when you hit the tests ctrl-c out of it.
-
-Then run
-
-myall2
-
-To have the tests run....
-ok
