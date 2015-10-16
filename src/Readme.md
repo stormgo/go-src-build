@@ -6,7 +6,7 @@
 The script myall must be in the directory
 
 ```
-/miago/go/src
+/tmp70/go/src
 ```
 
 or where ever your go/src directory is located.
