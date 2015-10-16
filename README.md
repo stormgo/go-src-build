@@ -1,4 +1,15 @@
 
+copy **myall** to the go/src directory
+
+And run this command:
+
+```
+./myall --v --run=go_test:crypto
+```
+
+After building the golang src tree from scatch and ctrl c'ing
+out of it when the tests start...
+
 This enables one to build the Golang package tests after running
 
 ```
