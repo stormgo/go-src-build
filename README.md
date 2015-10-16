@@ -32,3 +32,4 @@ Then run
 myall2
 
 To have the tests run....
+ok
