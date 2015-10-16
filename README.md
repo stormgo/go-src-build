@@ -10,6 +10,13 @@ And run this command:
 After building the golang src tree from scatch and ctrl c'ing
 out of it when the tests start...
 
+To build the the golang src tree from scratch
+
+```
+cd src
+./all.bash
+```
+
 This enables one to build the Golang package tests after running
 
 ```
