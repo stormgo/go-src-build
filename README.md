@@ -27,3 +27,8 @@ This assumes that
 export GOROOT=/mia/golang/go
 export GOROOT_BOOTSTRAP=/mia/golang/go1.4.2
 ```
+
+For more details go here:
+
+[Dave Cheney: How Go uses Go to build itself]
+(http://dave.cheney.net/2013/06/04/how-go-uses-go-to-build-itself)
