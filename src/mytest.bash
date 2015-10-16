@@ -1,6 +1,6 @@
 #!/bin/bash -e
 #
-# ./myall --v --run=go_test:crypto
+# ./mytest.bash --v --run=go_test:crypto
 #
 
 export GOROOT="$(cd .. && pwd)"
