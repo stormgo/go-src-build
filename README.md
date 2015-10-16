@@ -1,5 +1,5 @@
 
-copy **myall** to the go/src directory
+copy **src/myall** to the go/src directory
 
 And run this command:
 
