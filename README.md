@@ -9,7 +9,7 @@ And run this command:
 
 ```
 
-After building the golang src tree from scatch then **Ctrl C**
+After building the golang src tree from scratch then **Ctrl C**
 out of it when the tests start...
 
 To build the golang src tree from scratch
