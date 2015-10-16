@@ -22,9 +22,9 @@ the tests do not get built and run..
 if you just want to build and run the tests simply uncomment the
 line above.
 
-##### myall
+##### mytest.bash
 
-myall is part II and is basically just the second important line
+mytest is part II and is basically just the second important line
 of the
 
 all.bash / myall.bash

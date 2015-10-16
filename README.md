@@ -4,8 +4,8 @@ Please be sure and
 (./src/Readme.md)
 too before getting started.
 
-copy **src/myall** to the go/src directory
-copy **src/myall.bash** to the go/src directory
+* copy **src/myall.bash** to the go/src directory
+* copy **src/mytest.bash** to the go/src directory
 
 And run this command to build go without the tests
 
@@ -16,8 +16,8 @@ And run this command to build go without the tests
 And run this command to build a particular test
 
 ```
-./myall --v --run=go_test:crypto
-./myall --v --run=go_test:crypto/ecdsa -v
+./mytest.bash --v --run=go_test:crypto
+./mytest.bash --v --run=go_test:crypto/ecdsa -v
 ```
 
 By default to build the golang src tree from scratch without any
